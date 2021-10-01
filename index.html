@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- import important lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="./lib/matter.min.js"></script>
+    <script src="./lib/sweetalert.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="sweetalert.css" />
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="particle.js"></script>
+    <script src="plinko.js"></script>
+    <script src="boundary.js"></script>
+    <script src="point.js"></script>
+ 
+
+    <script>
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyDbVw0ZCstVMDmDXshWFNz4cl7in1-1f8E",
+  authDomain: "test2-3d097.firebaseapp.com",
+  projectId: "test2-3d097",
+  storageBucket: "test2-3d097.appspot.com",
+  messagingSenderId: "425905700631",
+  appId: "1:425905700631:web:e7a528cb4070f69a6d0152"
+};
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
